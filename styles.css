@@ -1,0 +1,90 @@
+*{
+    font-family: "Bitcount Grid Double", system-ui;;
+}
+body{
+ background-color:rgb(223, 218, 218);
+}
+
+#encabezado{
+margin: 20px;
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 10px;
+padding: 10px;
+justify-items: center;
+text-align: center;
+box-shadow: 5px 5px 10px rgba(255, 121, 121, 0.3);
+}
+
+.pdfs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+    background-color: rgba(255, 233, 161, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 5px 10px rgba(252, 77, 77, 0.3);
+}
+
+h3{
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    color: #FF8DA1;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(223, 14, 14);
+}
+
+h2{
+    display: flex;
+    background-color: rgba(255, 101, 160, 0.8); /* agrega canal alfa */
+    text-align: center;
+    border-radius: 10px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(92, 4, 4, 0.3);
+    margin: 30px;
+    color: #DC143C;
+}
+
+button{
+    background-color: #FFB6C1; /* agrega canal alfa */
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(92, 4, 4, 0.3);
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    margin: 15px;
+    height: auto;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.jpg_pdf{
+    border: 0.5px solid #FFB6C1;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px rgba(92, 4, 4, 0.3);
+    padding: 10px;
+
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+    margin: 20px;
+}
